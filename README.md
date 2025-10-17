@@ -48,7 +48,7 @@ The following metrics were recorded for each training configuration:
 
 The table indicates that the highest performance was achieved with α=0.2, ε=0.1, γ=0.9, showing faster convergence, fewer steps, and higher average return compared to the baseline.
 
-# 5\. Observations and Discussion
+# 4\. Observations and Discussion
 
 • When α was decreased to 0.01 and 0.001, the agent learned very slowly. Smaller learning rates resulted in minimal Q-value updates, producing poor returns and longer trajectories.  
 • Increasing α to 0.2 accelerated learning, enabling faster convergence and the best performance.  
@@ -56,6 +56,6 @@ The table indicates that the highest performance was achieved with α=0.2, ε=0.
 • The baseline (α=0.1, ε=0.1, γ=0.9) provided stable performance but slower convergence.  
 • The best balance between exploration and exploitation was achieved with α=0.2, ε=0.1, γ=0.9, offering the highest average return and lowest average steps.
 
-# 6\. Conclusion
+# 5\. Conclusion
 
 Through systematic experimentation, the optimal Q-learning hyperparameter combination was found to be α=0.2, ε=0.1, and γ=0.9. This configuration achieved the highest average return (-20.22) and the fewest steps (28.88) among all tested setups. The results confirm that a higher learning rate improves convergence speed, while maintaining moderate exploration ensures stability. Overall, Q-learning effectively enabled the Taxi agent to learn optimal pick-up and drop-off behavior through repeated interaction with the environment.
