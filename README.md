@@ -2,8 +2,6 @@
 
 CSCN8020 - Assignment 2: Q-Learning Report
 
-**Github link:** [**https://github.com/theRedeemer997/CSCN-8020-Assignment-2.git**](https://github.com/theRedeemer997/CSCN-8020-Assignment-2.git)
-
 Name: Manu Mathew
 
 Course: CSCN8020 - Reinforcement Learning
